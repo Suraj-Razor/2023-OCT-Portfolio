@@ -1,0 +1,43 @@
+$primary-color: #ffb6b6;
+$secondary-color: #d9d9d9;
+$primary-background: #a5a5a5;
+
+body {
+  margin: 0;
+  background-color: $primary-background;
+}
+
+header {
+  background-color: $primary-color;
+  padding: 16px;
+  text-align: center;
+
+  .logo-name {
+    margin-bottom: 48px;
+
+    img {
+      width: 100px;
+    }
+    .name {
+      font-size: 32px;
+
+      .coder-text {
+        color: #45a7c5;
+      }
+
+      .academy-text {
+        color: #1c3c5c;
+      }
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+
+    a {
+      text-decoration: none;
+      color: rgb(21, 21, 255);
+    }
+  }
+}

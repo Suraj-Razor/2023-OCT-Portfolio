@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+}
+
+header {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+}
+header .logo-name {
+  margin-bottom: 48px;
+}
+header .logo-name img {
+  width: 100px;
+}
+header .logo-name .name {
+  font-size: 32px;
+}
+header .logo-name .name .coder-text {
+  color: #45a7c5;
+}
+header .logo-name .name .academy-text {
+  color: #1c3c5c;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+header nav a {
+  text-decoration: none;
+  color: rgb(21, 21, 255);
+}/*# sourceMappingURL=style.css.map */
