@@ -5,7 +5,6 @@ $primary-background: #a5a5a5;
 body {
   margin: 0;
   background-color: $primary-background;
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -56,15 +55,14 @@ footer {
     display: flex;
     justify-content: space-around;
     margin-bottom: 32px;
-  }
-  a {
-    i {
-      color: rgba(43, 43, 43, 0.793);
-
-      font-size: 28px;
+    a {
+      i {
+        font-size: 24px;
+        color: rgba(72, 68, 68, 0.785);
+      }
     }
   }
   .info {
-    color: rgba(43, 43, 43, 0.793);
+    color: rgba(72, 68, 68, 0.785);
   }
 }
