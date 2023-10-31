@@ -32,3 +32,28 @@ Here is the code for the header:
   </nav>
 </header>
 ```
+
+### Footer
+
+Footer has social media links, and some contact and address information.
+Here is the code that we have for footer.
+
+```HTML
+ <footer>
+      <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="github.com" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="linkedin.com" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+      <div class="info">
+        <p>Contact: 0404040404</p>
+        <p>Address: 1/75 Fullagar Crescent, Higgins, 2615, ACT</p>
+      </div>
+    </footer>
+```

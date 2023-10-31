@@ -1,6 +1,10 @@
 body {
   margin: 0;
   background-color: #a5a5a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -31,4 +35,22 @@ header nav {
 header nav a {
   text-decoration: none;
   color: rgb(21, 21, 255);
+}
+
+footer {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+footer a i {
+  color: rgba(43, 43, 43, 0.793);
+  font-size: 28px;
+}
+footer .info {
+  color: rgba(43, 43, 43, 0.793);
 }/*# sourceMappingURL=style.css.map */
