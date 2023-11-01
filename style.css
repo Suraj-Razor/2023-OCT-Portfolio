@@ -12,8 +12,10 @@ header {
   padding: 16px;
   text-align: center;
 }
-header .logo-name {
-  margin-bottom: 48px;
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 48px;
+  }
 }
 header .logo-name img {
   width: 100px;
@@ -53,4 +55,23 @@ footer .social-media a i {
 }
 footer .info {
   color: rgba(72, 68, 68, 0.785);
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header nav {
+    width: 50%;
+  }
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
