@@ -1,12 +1,7 @@
-$primary-color: #ffb6b6;
-$secondary-color: #d9d9d9;
-$primary-background: #a5a5a5;
-
-@mixin background-stuff() {
-  background-color: $primary-color;
-  padding: 16px;
-  text-align: center;
-}
+@import "./styles/defaults/colors";
+@import "./styles/defaults/breakpoints";
+@import "./styles/components/header";
+@import "./styles/components/footer";
 
 body {
   margin: 0;
@@ -15,81 +10,4 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-header {
-  @include background-stuff();
-
-  .logo-name {
-    @media screen and (max-width: 600px) {
-      margin-bottom: 48px;
-    }
-
-    img {
-      width: 100px;
-    }
-    .name {
-      font-size: 32px;
-
-      .coder-text {
-        color: #45a7c5;
-      }
-
-      .academy-text {
-        color: #1c3c5c;
-      }
-    }
-  }
-  nav {
-    display: flex;
-    justify-content: space-around;
-    font-size: 18px;
-
-    a {
-      text-decoration: none;
-      color: rgb(21, 21, 255);
-    }
-  }
-}
-
-footer {
-  @include background-stuff();
-
-  .social-media {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 32px;
-    a {
-      i {
-        font-size: 24px;
-        color: rgba(72, 68, 68, 0.785);
-      }
-    }
-  }
-  .info {
-    color: rgba(72, 68, 68, 0.785);
-  }
-}
-
-@media screen and (min-width: 600px) {
-  header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    .logo-name {
-      .name {
-        margin-bottom: 0;
-      }
-    }
-    nav {
-      width: 50%;
-    }
-  }
-  footer {
-    .social-media {
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
 }

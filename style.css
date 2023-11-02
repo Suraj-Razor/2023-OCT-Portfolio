@@ -1,12 +1,3 @@
-body {
-  margin: 0;
-  background-color: #a5a5a5;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 header {
   background-color: #ffb6b6;
   padding: 16px;
@@ -39,6 +30,26 @@ header nav a {
   color: rgb(21, 21, 255);
 }
 
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header nav {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 footer {
   background-color: #ffb6b6;
   padding: 16px;
@@ -57,21 +68,11 @@ footer .info {
   color: rgba(72, 68, 68, 0.785);
 }
 
-@media screen and (min-width: 600px) {
-  header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  header .logo-name .name {
-    margin-bottom: 0;
-  }
-  header nav {
-    width: 50%;
-  }
-  footer .social-media {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
